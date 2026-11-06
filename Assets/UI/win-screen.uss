@@ -1,0 +1,53 @@
+.panel {
+    background-color: rgba(47, 126, 24, 0.773);
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: rgba(32, 203, 40, 0.82);
+    width: 337px;
+    height: auto;
+    max-height: 453px;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    justify-content: center;
+    border-left-color: rgb(17, 88, 32);
+    border-right-color: rgb(17, 88, 32);
+    border-top-color: rgb(17, 88, 32);
+    border-bottom-color: rgb(17, 88, 32);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+}
+
+.button {
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(52, 147, 36);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgb(17, 88, 32);
+    border-right-color: rgb(17, 88, 32);
+    border-top-color: rgb(17, 88, 32);
+    border-bottom-color: rgb(17, 88, 32);
+    color: rgb(17, 88, 32);
+    -unity-text-align: upper-center;
+    width: 160px;
+    font-size: 26px;
+    -unity-font-style: bold;
+}
+
+.button:hover {
+    background-color: rgb(195, 153, 51);
+}

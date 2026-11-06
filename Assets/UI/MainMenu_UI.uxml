@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main-menu.uss?fileID=7433441132597879392&amp;guid=be7d2ec8aa6b6f34d95a470f33434fcc&amp;type=3#main-menu"/>
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1; background-color: rgba(68, 187, 164, 0.769);">
+        <ui:VisualElement name="Container" class="menu" style="flex-grow: 1; border-left-color: rgb(15, 60, 61); border-right-color: rgb(15, 60, 61); border-top-color: rgb(15, 60, 61); border-bottom-color: rgb(15, 60, 61);">
+            <ui:Button text="Play" name="button_play" class="button"/>
+            <ui:Button text="Exit" name="button_exit" class="button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

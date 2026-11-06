@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/win-screen.uss?fileID=7433441132597879392&amp;guid=d8827d7dc7b77e847a18c2dd8c2eb799&amp;type=3#win-screen"/>
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" class="menu" style="flex-grow: 1;">
+            <ui:Button text="Again?" name="button_retry" class="button"/>
+            <ui:Button text="Menu" name="button_menu" class="button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
